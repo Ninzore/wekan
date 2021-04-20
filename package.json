@@ -1,0 +1,26 @@
+{
+  "name": "wekan",
+  "version": "0.2.0",
+  "description": "Wekan API wrapper",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ninzore/wekan.git"
+  },
+  "keywords": [
+    "api",
+    "wekan",
+    "kanban"
+  ],
+  "author": "Ninzore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ninzore/wekan/issues"
+  },
+  "homepage": "https://github.com/Ninzore/wekan#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
