@@ -1,5 +1,5 @@
 import axios from "axios";
-import {IUserLogin, IUserRegister, IUserCreate, IUserDelete, IUserinfo, IWekanError, IUserBrif, IUserDisbale} from "./types/user";
+import {IUserLogin, IUserRegister, IUserCreate, IUserDelete, IUserinfo, IUserBrif, IUserDisbale} from "./types/user";
 
 export class User {
     public url: string;
