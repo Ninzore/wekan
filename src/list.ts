@@ -3,11 +3,9 @@ import {IListBrif, IListInfo, IAddList, IDelList} from "./types/list";
 
 export class List {
     public url: string;
-    public dbpath: string;
 
-    constructor(url: string, dbpath = "mongodb://127.0.0.1:27017") {
+    constructor(url: string) {
         this.url = url;
-        this.dbpath = dbpath;
     }
 
     async retriveAll(token: string, boardid: string): Promise<Array<IListBrif>> {
